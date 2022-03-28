@@ -1,0 +1,45 @@
+body {
+    background-color:#ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.toolBtn {
+    display:block;
+    text-align:center;
+    padding:10px;
+}
+
+#resetBtn {
+    display:block;
+    text-align:center;
+    padding:10px;
+}
+
+.colorBtn {
+    display:block;
+    text-align:center;
+    padding:5px;
+}
+
+.centeredTxt {
+    display:block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#drawCanvas {
+    position:fixed;
+    top:25%;
+    left: 50%;
+    margin-top: -128px;
+    margin-left: -128px;
+
+    border:3px solid #d3d3d3;
+}
+
+#printArray {
+    white-space:pre-wrap;
+    font-family:'Courier New', Courier, monospace;
+    font-size:small;
+}
